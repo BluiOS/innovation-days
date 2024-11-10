@@ -87,3 +87,28 @@
 | VIPER |
 | VIP |
 | CLEAN |
+
+### Design Patterns
+
+| Name |
+| --- |
+| Factory |
+| Builder |
+| Prototype |
+| Singleton |
+| Adapter |
+| Bridge |
+| Composite |
+| Decorator |
+| Facade |
+| Flyweight |
+| Proxy |
+| Chain of Responsibility |
+| Command |
+| Iterator |
+| Mediator |
+| Memento |
+| Observer |
+| Visitor |
+| Strategy |
+| State |
