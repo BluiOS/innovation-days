@@ -80,7 +80,7 @@
 
 ### Architecture
 
-| Topic |
+| Name |
 | --- |
 | MVVM |
 | MVP |
