@@ -77,3 +77,13 @@
 | Test-Driven Development | Overview of TDD and how to implement it in Swift projects.| 
 | Code Coverage and Quality Metrics | Using Xcode’s code coverage tool to assess and improve test coverage. |
 | Continuous Integration Testing | Setting up automated testing pipelines in CI tools for quality assurance. |
+
+### Architecture
+
+| Topic |
+| --- |
+| MVVM |
+| MVP |
+| VIPER |
+| VIP |
+| CLEAN |
