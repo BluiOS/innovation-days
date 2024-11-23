@@ -173,3 +173,13 @@
 | Visitor |
 | Strategy |
 | State |
+
+## Data Structures and Algorithms
+
+| Arrays |
+| Linked Lists |
+| Stacks & Queues |
+| Hash Tables |
+| Trees |
+| Graphs |
+| Time Complexity |
