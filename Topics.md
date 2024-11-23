@@ -176,6 +176,8 @@
 
 ## Data Structures and Algorithms
 
+| Name |
+| --- |
 | Arrays |
 | Linked Lists |
 | Stacks & Queues |
