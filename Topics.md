@@ -151,28 +151,29 @@
 
 ## Design Patterns
 
-| Name |
-| --- |
-| Factory |
-| Builder |
-| Prototype |
-| Singleton |
-| Adapter |
-| Bridge |
-| Composite |
-| Decorator |
-| Facade |
-| Flyweight |
-| Proxy |
-| Chain of Responsibility |
-| Command |
-| Iterator |
-| Mediator |
-| Memento |
-| Observer |
-| Visitor |
-| Strategy |
-| State |
+| Name | Presented By |
+| --- | --- |
+| Factory | |
+| Builder | |
+| Prototype | |
+| Singleton | |
+| Adapter | |
+| Bridge | |
+| Composite | |
+| Decorator | |
+| Facade | |
+| Flyweight | |
+| Proxy | |
+| Chain of Responsibility | |
+| Command | |
+| Iterator | |
+| Mediator | |
+| Memento | |
+| Observer | |
+| Visitor | |
+| Strategy | |
+| State | |
+| Retry | HEssam ([Document](Presentations/retry-pattern.md)) |
 
 ## Data Structures and Algorithms
 
