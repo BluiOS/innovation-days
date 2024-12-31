@@ -10,7 +10,7 @@ In the past, we had to create a class containing several test methods. Now, we u
 
 Instead of using `set-up` or `tear-down`, we now use `init` and `deinit` for setup and teardown purposes.
 
-![Image Placeholder]
+<img width="917" alt="Screenshot 2024-12-31 at 8 32 24 PM" src="https://github.com/user-attachments/assets/45bcae53-d33e-46f6-b6aa-b687685c6282" />
 
 ---
 
