@@ -32,12 +32,12 @@ Instead of using `XCTAssert`, Swift Testing offers three types of expectations:
    
    <img width="688" alt="Screenshot 2024-12-31 at 9 35 32 PM" src="https://github.com/user-attachments/assets/dfadf6cc-64c2-4761-8599-6ba0c4922809" />
 
-3. **#expect(throws: ErrorType):**
+2. **#expect(throws: ErrorType):**
    Used for testing errors and ensuring a test fails under specific conditions.
 
 <img width="557" alt="Screenshot 2024-12-31 at 9 37 49 PM" src="https://github.com/user-attachments/assets/a09c133f-24d9-4b84-83fd-37c4a2ddddd7" />
 
-4. **#require:**
+3. **#require:**
    This stops the test execution upon failure of an expectation.
 
    <img width="686" alt="Screenshot 2024-12-31 at 9 36 29 PM" src="https://github.com/user-attachments/assets/f4f518cb-ba08-4672-ba77-a0b2c3f7a46c" />
@@ -99,7 +99,7 @@ Traits allow additional configuration for test cases. Examples include:
 
 <img width="551" alt="Screenshot 2025-01-01 at 12 21 50 AM" src="https://github.com/user-attachments/assets/240c41a7-1428-4700-988a-524447f0366e" />
 
-5. Parallel Testing:
+4. Parallel Testing:
    Unlike XCTest, where tests are executed serially, Swift Testing runs tests in parallel and in a randomized order by default.
 
 <img width="463" alt="Screenshot 2025-01-01 at 12 22 31 AM" src="https://github.com/user-attachments/assets/1b587a09-e43d-4998-90b4-f629907e13c5" />
