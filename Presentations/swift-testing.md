@@ -6,7 +6,7 @@
 This document provides a comprehensive overview of Swift's modern testing methodologies. From leveraging the `@Test` attribute to managing asynchronous code effectively, Swift Testing introduces powerful enhancements over traditional Unit Testing. With features like parallel testing, argument-driven tests, and better failure management, developers can create robust and maintainable test cases efficiently.
 
 ## Suits
-In the past, we had to create a class containing several test methods. Now, we use a `suit` instead. A `suit` is a type containing test cases or other suits. It can be a `struct`, `class`, or `enum`.
+In the past, we had to create a class containing several test methods. Now, we use a `suit` instead. A `suit` is a type containing test cases or other suits. It can be a `struct`, `class`, or `actor`.
 
 Instead of using `set-up` or `tear-down`, we now use `init` and `deinit` for setup and teardown purposes.
 
