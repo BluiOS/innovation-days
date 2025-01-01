@@ -38,19 +38,23 @@ Instead of using `XCTAssert`, Swift Testing offers three types of expectations:
 
 2. **#expect(throws: ErrorType):**
    Used for testing errors and ensuring a test fails under specific conditions.
+   
 <br><br>
 <img width="557" alt="Screenshot 2024-12-31 at 9 37 49 PM" src="https://github.com/user-attachments/assets/a09c133f-24d9-4b84-83fd-37c4a2ddddd7" />
 <br><br>
 
-3. **#require:**
+4. **#require:**
    This stops the test execution upon failure of an expectation.
+   
 <br><br>
 <img width="686" alt="Screenshot 2024-12-31 at 9 36 29 PM" src="https://github.com/user-attachments/assets/f4f518cb-ba08-4672-ba77-a0b2c3f7a46c" />
 <br><br>
+
    Previously, we had to set `continueAfterFailure` to `false` to stop execution when the first expectation failed. Now, we can simply use `require` for this purpose.
 <br><br>
  <img width="897" alt="Screenshot 2024-12-31 at 9 39 15 PM" src="https://github.com/user-attachments/assets/f17a5eeb-6d4a-45a9-ad25-af485b0aa80e" />
 <br><br>
+
 For optional binding, you can also use the following pattern:
 <br><br>
 <img width="819" alt="Screenshot 2024-12-31 at 9 40 56 PM" src="https://github.com/user-attachments/assets/e70a5c29-5d13-489b-b3da-fb16e5123335" />
@@ -62,15 +66,18 @@ For optional binding, you can also use the following pattern:
 When performing repetitive tests with different initializations, arguments can be used to avoid redundant methods.
 
 Instead of creating multiple repetitive methods, pass arguments and iterate over them. Arguments can have names, which makes them easier to identify in the test navigator. For example, you can loop through a collection of strings and test each one individually.
+
 <br><br>
 <img width="748" alt="Screenshot 2025-01-01 at 12 14 33 AM" src="https://github.com/user-attachments/assets/ee8b5d8b-09ba-4d84-944f-696c76873790" />
 
 <img width="761" alt="Screenshot 2025-01-01 at 12 15 10 AM" src="https://github.com/user-attachments/assets/d5e19f08-0149-4da8-8a1e-642aa4fa7234" />
 <br><br>
+
 Arguments can include a maximum of two collections that conform to `Sendable` protocol such as arrays, sets, option sets, etc.
 <br><br>
 <img width="726" alt="Screenshot 2025-01-01 at 12 16 08 AM" src="https://github.com/user-attachments/assets/ad3e9359-88d5-430a-9bb0-835cc05c3d2c" />
 <br><br>
+
 When running tests, the test navigator shows detailed information for each item. For better readability, inject your model into the `CustomTestStringConvertible` protocol to provide a description for each item.
 
 <br><br>
@@ -91,10 +98,12 @@ Traits allow additional configuration for test cases. Examples include:
 
 <img width="547" alt="Screenshot 2025-01-01 at 12 27 58 AM" src="https://github.com/user-attachments/assets/01096d48-98e4-4f27-8cd7-19c8e76bfa14" />
 <br><br>
+
 1. Adding titles for clarity in the test navigator.
 <br><br>
 <img width="567" alt="Screenshot 2025-01-01 at 12 20 13 AM" src="https://github.com/user-attachments/assets/c2357230-dac3-403c-aee4-37fabeb604a4" />
 <br><br>
+
 2. Handling known issues without failing the entire pipeline using either:
    - `.disabled` trait.
 
@@ -102,8 +111,10 @@ Traits allow additional configuration for test cases. Examples include:
 <br><br>
 <img width="550" alt="Screenshot 2025-01-01 at 12 21 17 AM" src="https://github.com/user-attachments/assets/d97c7534-9429-4cd2-8c2e-0a29a3fbf5e9" />
 <br><br>
+
 3. Tags:
    Tags enable grouping methods or suits. For example, if several methods test a common feature, group them into a suit and assign a tag to the suit rather than individual methods. Tags are created using the `@Tag` attribute.
+   
 <br><br>
 <img width="872" alt="Screenshot 2025-01-01 at 12 29 59 AM" src="https://github.com/user-attachments/assets/8fe5043e-0099-4d4c-a281-056b8a4635c6" />
 
@@ -112,6 +123,7 @@ Traits allow additional configuration for test cases. Examples include:
 
 4. Parallel Testing:
    Unlike XCTest, where tests are executed serially, Swift Testing runs tests in parallel and in a randomized order by default.
+   
 <br><br>
 <img width="463" alt="Screenshot 2025-01-01 at 12 22 31 AM" src="https://github.com/user-attachments/assets/1b587a09-e43d-4998-90b4-f629907e13c5" />
 <br><br>
@@ -125,6 +137,7 @@ If a specific order is required, traits can enforce serialization. Internal suit
 
 ## Asynchronous Code Testing
 While asynchronous code behaves as expected when using `wait` followed by `expect`, completion handling may require a customized approach.
+
 <br><br>
 <img width="671" alt="Screenshot 2025-01-01 at 12 24 20 AM" src="https://github.com/user-attachments/assets/a09ad68c-5265-4817-b8b6-1f77dc1a9491" />
 
@@ -149,9 +162,9 @@ Run tests via the terminal using:
 ```bash
 swift test
 ```
-<br><br>
+
 <img width="390" alt="Screenshot 2025-01-01 at 12 27 11 AM" src="https://github.com/user-attachments/assets/9503e6c1-ceda-4ff8-90e3-f7938d5325f9" />
-<br><br>
+
 
 ---
 
