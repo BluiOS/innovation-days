@@ -10,3 +10,4 @@
 | ✅   | Collection Protocols in Swift              | [Alireza Asadi](https://github.com/Mr-Alirezaa)           | 7 January 2025   | 18 Dey 1403    | -                                                          |
 | ✅   | Character Encodings                        | [Ali Shafiee](https://github.com/AliShafiee)              | 21 January 2025  | 2 Bahman 1403  | [Character Encodings](Presentations/character-encoding.md) |
 | ✅   | Vision Framework                           | [Omid Golparvar](https://github.com/OmidGolparvar)        | 04 February 2025 | 16 Bahman 1403 | [Vision Framework](Presentations/vision-framework.md)      |
+| ✅   | Mocking                                    | [Hossein Hajimirza](https://github.com/hosseinhajiimirza) | 11 MAR 2025      | 21 Esfand 1403 | [Mocking](Presentations/Mocking)                           |
