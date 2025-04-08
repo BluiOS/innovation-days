@@ -141,13 +141,14 @@
 
 ## Architecture
 
-| Name |
-| --- |
-| MVVM |
-| MVP |
-| VIPER |
-| VIP |
-| CLEAN |
+| Name | Presented By |
+| --- | --- |
+| MVVM | |
+| MVP | |
+| VIPER | |
+| VIP | |
+| CLEAN | |
+| MVI | HEssam ([Document](Presentations/MVI/README.md)) |
 
 ## Design Patterns
 
