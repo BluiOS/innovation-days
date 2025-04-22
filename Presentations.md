@@ -10,5 +10,7 @@
 | ✅   | Collection Protocols in Swift              | [Alireza Asadi](https://github.com/Mr-Alirezaa)           | 7 January 2025   | 18 Dey 1403    | -                                                          |
 | ✅   | Character Encodings                        | [Ali Shafiee](https://github.com/AliShafiee)              | 21 January 2025  | 2 Bahman 1403  | [Character Encodings](Presentations/character-encoding.md) |
 | ✅   | Vision Framework                           | [Omid Golparvar](https://github.com/OmidGolparvar)        | 04 February 2025 | 16 Bahman 1403 | [Vision Framework](Presentations/vision-framework.md)      |
+| ✅   | Machine Learning                           | [Ali Shafiee](https://github.com/AliShafiee)              | 04 March 2025    | 14 Esfand 1403 | [Machine Learning](Presentations/MachineLearning/Machine_Learning_Presentation.md)      |
 | ✅   | Mocking                                    | [Hossein Hajimirza](https://github.com/hosseinhajiimirza) | 11 MAR 2025      | 21 Esfand 1403 | [Mocking](Presentations/Mocking)                           |
-| ✅   | MVI Architecutre                                    | [HEssam](https://github.com/helloitshessam) | 08 Apr 2025      | 19 Farvardin 1404 | [MVI Architecutre](Presentations/MVI)                           |
+| ✅   | MVI Architecutre                           | [HEssam](https://github.com/helloitshessam)               | 08 Apr 2025      | 19 Farvardin 1404 | [MVI Architecutre](Presentations/MVI)      |
+| ✅   | MCP Servers                           | [Amin Torabi](https://github.com/ATMasoumi)               | 08 Apr 2025      | 19 Farvardin 1404 | [MCP Servers](Presentations/weather)      |
