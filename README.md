@@ -23,3 +23,4 @@ List of presentations, presenter name, and the chosen topics is available in the
     - [Architecture](/Topics.md#architecture)
     - [Design Patterns](/Topics.md#design-patterns)
     - [Data Structures and Algorithms](/Topics.md#data-structures-and-algorithms)
+    - [Artificial Intelligence](/Topics.md#Artificial-Intelligence)

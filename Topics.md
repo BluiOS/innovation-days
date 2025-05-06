@@ -187,3 +187,11 @@
 | Trees |
 | Graphs |
 | Time Complexity |
+
+## Artificial Intelligence
+
+| Name | Presented By |
+| --- | --- |
+| Machine Learning | Ali ([Document](Presentations/MachineLearning/Machine_Learning_Presentation.md)) |
+| MCP Server | Amin ([Project](Presentations/MCPServer/weather/))|
+| Artificial Neural Network | Ali ([Document](Presentations/ANN/ANN.md)) |
