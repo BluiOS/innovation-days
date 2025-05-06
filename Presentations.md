@@ -13,4 +13,5 @@
 | ✅   | Machine Learning                           | [Ali Shafiee](https://github.com/AliShafiee)              | 04 March 2025    | 14 Esfand 1403 | [Machine Learning](Presentations/MachineLearning/Machine_Learning_Presentation.md)      |
 | ✅   | Mocking                                    | [Hossein Hajimirza](https://github.com/hosseinhajiimirza) | 11 MAR 2025      | 21 Esfand 1403 | [Mocking](Presentations/Mocking)                           |
 | ✅   | MVI Architecutre                           | [HEssam](https://github.com/helloitshessam)               | 08 Apr 2025      | 19 Farvardin 1404 | [MVI Architecutre](Presentations/MVI)      |
-| ✅   | MCP Servers                           | [Amin Torabi](https://github.com/ATMasoumi)               | 08 Apr 2025      | 19 Farvardin 1404 | [MCP Servers](Presentations/weather)      |
+| ✅   | MCP Servers                           | [Amin Torabi](https://github.com/ATMasoumi)               | 15 Apr 2025      | 26 Farvardin 1404 | [MCP Servers](Presentations/MCPServer/weather/)      |
+| ✅   | Artificial Neural Network             | [Ali Shafiee](https://github.com/AliShafiee)             | 06 May 2025      | 16 Ordibehesht 1404 | [Artificial Neural Network](Presentations/ANN/ANN.md)      |
