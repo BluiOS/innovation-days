@@ -15,3 +15,4 @@
 | ✅   | MVI Architecutre                           | [HEssam](https://github.com/helloitshessam)               | 08 Apr 2025      | 19 Farvardin 1404 | [MVI Architecutre](Presentations/MVI)      |
 | ✅   | MCP Servers                           | [Amin Torabi](https://github.com/ATMasoumi)               | 15 Apr 2025      | 26 Farvardin 1404 | [MCP Servers](Presentations/MCPServer/weather/)      |
 | ✅   | Artificial Neural Network             | [Ali Shafiee](https://github.com/AliShafiee)             | 06 May 2025      | 16 Ordibehesht 1404 | [Artificial Neural Network](Presentations/ANN/ANN.md)      |
+| ✅   | Rive - Interactive Animation Tool             | [HEssam](https://github.com/helloitshessam)             | 27 May 2025      | 06 Khordad 1404 | [Rive - Interactive Animation Tool](Presentations/Animation/Rive/rive.md)      |
