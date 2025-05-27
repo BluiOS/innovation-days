@@ -9,7 +9,7 @@ import SwiftUI
 import RiveRuntime
 
 struct ContentView: View {
-    @StateObject private var rvm = HEssamViewModel()
+    @StateObject private var rvm = SleepOnboardingViewModel()
     
     var body: some View {
         VStack {

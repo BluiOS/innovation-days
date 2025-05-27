@@ -1,5 +1,5 @@
 //
-//  HEssamViewModel.swift
+//  SleepOnboardingViewModel.swift
 //  SampleRive
 //
 //  Created by HEssam on 5/27/25.
@@ -8,7 +8,7 @@
 import SwiftUI
 import RiveRuntime
 
-class HEssamViewModel: RiveViewModel {
+class SleepOnboardingViewModel: RiveViewModel {
     
     private var stateMachine: RiveStateMachineInstance?
 
