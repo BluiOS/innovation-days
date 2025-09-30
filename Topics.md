@@ -59,6 +59,7 @@
 | Vision and VisionKit |  |  |
 | AVFoundation |  |  |
 | Network |  |  |
+| CoreText |  | https://developer.apple.com/documentation/coretext/ |
 
 ## GitHub Repository Code Reviews
 

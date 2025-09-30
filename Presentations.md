@@ -17,3 +17,4 @@
 | ✅   | Artificial Neural Network                  | [Ali Shafiee](https://github.com/AliShafiee)              | 06 May 2025      | 16 Ordibehesht 1404 | [Artificial Neural Network](Presentations/ANN/ANN.md)                               |
 | ✅   | Rive - Interactive Animation Tool          | [HEssam](https://github.com/helloitshessam)               | 27 May 2025      | 06 Khordad 1404     | [Rive - Interactive Animation Tool](Presentations/Animation/Rive/README.md)         |
 | ✅   | Cryptography                               | [Ali Shafiee](https://github.com/AliShafiee)              | 02 Sep 2025      | 11 Shahrivar 1404   | [Cryptography](Presentations/Cryptography/Cryptography.md)                          |
+| ✅   | CoreText                                   | [HEssam](https://github.com/helloitshessam)               | 23 Sep 2025      | 01 Mehr 1404        | [CoreText](Presentations/CoreText/CoreText.md)                                      |
