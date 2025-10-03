@@ -18,3 +18,4 @@
 | ✅   | Rive - Interactive Animation Tool          | [HEssam](https://github.com/helloitshessam)               | 27 May 2025      | 06 Khordad 1404     | [Rive - Interactive Animation Tool](Presentations/Animation/Rive/README.md)         |
 | ✅   | Cryptography                               | [Ali Shafiee](https://github.com/AliShafiee)              | 02 Sep 2025      | 11 Shahrivar 1404   | [Cryptography](Presentations/Cryptography/Cryptography.md)                          |
 | ✅   | CoreText                                   | [HEssam](https://github.com/helloitshessam)               | 23 Sep 2025      | 01 Mehr 1404        | [CoreText](Presentations/CoreText/CoreText.md)                                      |
+| ✅   | Regular Expressions                        | [Alireza Asadi](https://github.com/Mr-Alirezaa)           | 29 Sep 2025      | 09 Mehr 1404        | [RegEx](Presentations/RegEx)                                                        |
