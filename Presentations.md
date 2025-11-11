@@ -19,3 +19,4 @@
 | ✅   | Cryptography                               | [Ali Shafiee](https://github.com/AliShafiee)              | 02 Sep 2025      | 11 Shahrivar 1404   | [Cryptography](Presentations/Cryptography/Cryptography.md)                          |
 | ✅   | CoreText                                   | [HEssam](https://github.com/helloitshessam)               | 23 Sep 2025      | 01 Mehr 1404        | [CoreText](Presentations/CoreText/CoreText.md)                                      |
 | ✅   | Regular Expressions                        | [Alireza Asadi](https://github.com/Mr-Alirezaa)           | 29 Sep 2025      | 09 Mehr 1404        | [RegEx](Presentations/RegEx)                                                        |
+| ✅   | Collection View Layou                      | [HEssam](https://github.com/helloitshessam)               | 11 Nov 2025      | 20 Aban 1404        | [CollectionViewLayout](Presentations/CollectionViewLayout/README.md)                |
