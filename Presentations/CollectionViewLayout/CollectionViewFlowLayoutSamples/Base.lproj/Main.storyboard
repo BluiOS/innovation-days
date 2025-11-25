@@ -24,6 +24,22 @@
             </objects>
             <point key="canvasLocation" x="-1680" y="-496"/>
         </scene>
+        <!--Item-->
+        <scene sceneID="V9V-5d-LdV">
+            <objects>
+                <viewController id="apV-Xl-DH8" customClass="CarouselViewController" customModule="CollectionViewFlowLayoutSamples" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pRp-ed-AuF">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="X1L-Zu-VJW"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="XNg-GY-VWw"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MEe-bY-PqZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2521" y="-26"/>
+        </scene>
         <!--Item 1-->
         <scene sceneID="t38-va-iV0">
             <objects>
@@ -52,6 +68,7 @@
                     <connections>
                         <segue destination="dVd-Gj-tzn" kind="relationship" relationship="viewControllers" id="a48-ZV-mEy"/>
                         <segue destination="0Ab-zk-3fM" kind="relationship" relationship="viewControllers" id="NRC-4F-q8m"/>
+                        <segue destination="apV-Xl-DH8" kind="relationship" relationship="viewControllers" id="BP8-x1-VHJ"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NPj-WW-uYn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
