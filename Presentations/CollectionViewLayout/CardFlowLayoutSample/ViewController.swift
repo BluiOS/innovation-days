@@ -1,8 +1,8 @@
 //
 //  ViewController.swift
-//  CollectionViewFlowLayoutSamples
+//  CardFlowLayoutSample
 //
-//  Created by HEssam on 11/10/25.
+//  Created by Ali Shafiee on 9/10/1404 AP.
 //
 
 import UIKit

@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  CollectionViewFlowLayoutSamples
+//  CardFlowLayoutSample
 //
-//  Created by HEssam on 11/10/25.
+//  Created by Ali Shafiee on 9/10/1404 AP.
 //
 
 import UIKit
@@ -16,7 +16,13 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
-        guard let _ = (scene as? UIWindowScene) else { return }
+        guard let windowScene = (scene as? UIWindowScene) else { return }
+        
+        window = UIWindow(windowScene: windowScene)
+        let rootVC = CarouselViewControllerCircle()
+//        let rootVC = CarouselViewControllerPaged()
+        window?.rootViewController = rootVC
+        window?.makeKeyAndVisible()
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
