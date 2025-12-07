@@ -7,9 +7,9 @@
 
 import UIKit
 
-class InfiniteCarousel2Layout: UICollectionViewFlowLayout {
+class InfiniteCarouselCircleLayout: UICollectionViewFlowLayout {
     
-    private let minScale: CGFloat = 0
+    private let minScale: CGFloat = 0.6
     
     override init() {
         super.init()
@@ -24,8 +24,8 @@ class InfiniteCarousel2Layout: UICollectionViewFlowLayout {
         super.prepare()
         guard let collectionView else { return }
         
-        itemSize = CGSize(width: 100, height: 100)
-        minimumLineSpacing = 10
+        itemSize = CGSize(width: 50, height: 50)
+        minimumLineSpacing = 30
         sectionInset = UIEdgeInsets(
             top: 0,
             left: (collectionView.bounds.width - itemSize.width)/2,
@@ -34,38 +34,37 @@ class InfiniteCarousel2Layout: UICollectionViewFlowLayout {
         )
     }
     
-//    override var collectionViewContentSize: CGSize {
-//        collectionView?.bounds.size ?? .zero
-//    }
-    
     override func layoutAttributesForElements(in rect: CGRect) -> [UICollectionViewLayoutAttributes]? {
         guard let attributes = super.layoutAttributesForElements(in: rect),
               let collectionView else { return nil }
         
         let centerX = collectionView.contentOffset.x + collectionView.bounds.width / 2
+        let collectionViewWidth = collectionView.bounds.width
+        
+        let padding: CGFloat = 16 + itemSize.width/2
+        let leftBound  = collectionView.contentOffset.x + padding
+        let rightBound = collectionView.contentOffset.x + collectionViewWidth - padding
         
         for attr in attributes {
-            let distance = abs(attr.center.x - centerX) // 25
-            let scale = 1 - (1 - minScale) / (collectionView.bounds.width / 2) * distance
+            
+            let distanceFromCenter = abs(attr.center.x - centerX)
+            // [x,y] [distanceFromCenter, scale] = [0, 1] [collectionViewWidth / 2, minScale]
+            // y = (2 * (minScale - 1) / w * x) + 1
+            let scale = 1 + 2 * (minScale - 1) / collectionViewWidth * distanceFromCenter
             attr.transform = CGAffineTransform(scaleX: scale, y: scale)
+            
+            attr.zIndex = Int(1000 - distanceFromCenter)
+
+            var attrCenter = attr.center
+            if attrCenter.x < leftBound { attrCenter.x = leftBound }
+            if attrCenter.x > rightBound { attrCenter.x = rightBound }
+            attr.center = attrCenter
         }
+        
         return attributes
     }
     
     override func shouldInvalidateLayout(forBoundsChange newBounds: CGRect) -> Bool {
         return true
     }
-    
-//    override func targetContentOffset(forProposedContentOffset proposedContentOffset: CGPoint,
-//                                      withScrollingVelocity velocity: CGPoint) -> CGPoint {
-//        guard let collectionView else { return proposedContentOffset }
-//        
-//        let centerX = proposedContentOffset.x + collectionView.bounds.width / 2
-//        
-//        guard let attributes = layoutAttributesForElements(in: collectionView.bounds) else { return proposedContentOffset }
-//        guard let closest = attributes.min(by: { abs($0.center.x - centerX) < abs($1.center.x - centerX) }) else { return proposedContentOffset }
-//        
-//        let newOffsetX = closest.center.x - collectionView.bounds.width / 2
-//        return CGPoint(x: newOffsetX, y: proposedContentOffset.y)
-//    }
 }
