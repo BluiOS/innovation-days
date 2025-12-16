@@ -1,7 +1,5 @@
 # Git
 
----
-
 ## Introduction: Understanding Version Control
 
 ### What is Version Control System (VCS)?
