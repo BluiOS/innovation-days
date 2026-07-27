@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='7.0' target-platform='ios' swift-version='6' display-mode='rendered' buildActiveScheme='true' executeOnSourceChanges='true' importAppTypes='true'>
+    <pages>
+        <page name='01 Meaning Appears With Rules'/>
+        <page name='02 Exact Duration'/>
+        <page name='03 Calendar Day'/>
+        <page name='04 Start Of Day'/>
+        <page name='05 Constructing Components'/>
+        <page name='06 Extracting Components'/>
+        <page name='07 Calendar Information'/>
+        <page name='08 Scanning Dates'/>
+        <page name='09 Calculating Dates'/>
+        <page name='10 Intervals And Comparisons'/>
+        <page name='11 Arithmetic Order Matters'/>
+        <page name='12 Calendar Matching Policies'/>
+        <page name='13 Birthday Is Not Date'/>
+        <page name='14 Timezone Is Not Offset'/>
+        <page name='15 Week Year Versus Calendar Year'/>
+        <page name='16 Business Timezone'/>
+        <page name='17 Timezone Lookup'/>
+        <page name='18 Calendar Systems'/>
+        <page name='19 Month Arithmetic'/>
+        <page name='20 FormatStyle'/>
+        <page name='21 Locale Formatting'/>
+        <page name='22 ISO 8601 Parsing'/>
+        <page name='23 Stable DateFormatter Parsing'/>
+        <page name='24 Inject Clock'/>
+        <page name='25 Expiry Checker'/>
+        <page name='26 Stable Test Context'/>
+    </pages>
+</playground>

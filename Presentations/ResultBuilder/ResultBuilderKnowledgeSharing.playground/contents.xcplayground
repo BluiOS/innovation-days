@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='7.0' target-platform='ios' swift-version='6' display-mode='raw' buildActiveScheme='true'>
+    <pages>
+        <page name='01 - Why'/>
+        <page name='02 - What is @resultBuilder'/>
+        <page name='03 - buildBlock'/>
+        <page name='04 - buildExpression'/>
+        <page name='05 - buildOptional'/>
+        <page name='06 - buildEither'/>
+        <page name='07 - buildArray'/>
+        <page name='08 - buildPartialBlock'/>
+        <page name='09 - buildFinalResult'/>
+        <page name='10 - buildLimitedAvailability'/>
+        <page name='11 - The full builder'/>
+        <page name='12 - ViewBuilder is just a builder'/>
+        <page name='13 - Control flow in SwiftUI'/>
+        <page name='14 - No buildArray, use ForEach'/>
+        <page name='15 - The 10-view cap'/>
+        <page name='16 - The type is the tree'/>
+    </pages>
+</playground>
