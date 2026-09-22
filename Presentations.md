@@ -29,3 +29,4 @@
 | App Entrypoints                            | [Mohsen Talaei](https://github.com/talaei66mohsen)        | 30 Jul 2026      | 9 Tir 1405          | -                                                                                   |
 | Use LLDB Like A Pro                        | [Alireza Asadi](https://github.com/Mr-Alirezaa)           | 14 Jul 2026      | 23 Tir 1405         | [LLDB](Presentations/LLDBLikeAPro)                                                  |
 | JOSE, JWS, and JWE                         | [Ali Shafiee](https://github.com/AliShafiee)              | 21 Jul 2026      | 30 Tir 1405         | [JOSE, JWS, and JWE](Presentations/JOSE/JOSE-JWS-JWE.md)                            |
+| Foundation Models                          | [Ali Shafiee](https://github.com/AliShafiee)              | 22 Sep 2026      | 31 Shahrivar 1405   | [Foundation Models](Presentations/FoundationModels/Foundation-Models.md)            |
